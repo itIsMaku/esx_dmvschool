@@ -37,11 +37,11 @@ client_scripts {
 ui_page 'html/ui_cs.html'
 
 files {
-	'html/ui_cs.html',
+	'html/ui.html',
 	'html/logo.png',
 	'html/dmv.png',
 	'html/styles.css',
-	'html/questions_cs.js',
+	'html/questions.js',
 	'html/scripts.js',
 	'html/debounce.min.js'
 }
