@@ -1,24 +1,20 @@
-# esx_dmvschool
-Realistic DMV school for ESX
+# esx_dmvschool (Czech version)
+Realistic DMV school for ESX in czech language in default download
+• Script was edited to plug & play, so you can edit only config.lua and everything is in Czech language.
 
 ## Requirements
 - [esx_license](https://github.com/ESX-Org/esx_license)
 
 ## Download & Installation
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_dmvschool
-```
-
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_dmvschool [esx]/esx_dmvschool
+git clone https://github.com/itIsMaku/esx_dmvschool [esx]/esx_dmvschool
 ```
 
 ### Manually
-- Download https://github.com/ESX-Org/esx_dmvschool/archive/master.zip
+- Download https://github.com/itIsMaku/esx_dmvschool/archive/master.zip
 - Put it in the `[esx]` directory
 
 ## Installation
