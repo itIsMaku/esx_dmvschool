@@ -2,9 +2,9 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'ESX DMV School'
+description 'ESX DMV School - Čeština'
 
-version '1.0.4'
+version '1.0.5'
 
 server_scripts {
 	'@es_extended/locale.lua',
@@ -34,14 +34,14 @@ client_scripts {
 	'client/main.lua'
 }
 
-ui_page 'html/ui.html'
+ui_page 'html/ui_cs.html'
 
 files {
-	'html/ui.html',
+	'html/ui_cs.html',
 	'html/logo.png',
 	'html/dmv.png',
 	'html/styles.css',
-	'html/questions.js',
+	'html/questions_cs.js',
 	'html/scripts.js',
 	'html/debounce.min.js'
 }
