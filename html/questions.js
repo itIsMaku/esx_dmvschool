@@ -1,42 +1,42 @@
 var tableauQuestion = [
 	{
-		question: "Si vous conduisez à 80km/h, que vous approchez d'un lieu de résidence, cela veut dire que :",
-		propositionA: "Vous devez accélérer",
-		propositionB: "Vous pouvez garder votre vitesse, si vous ne croisez pas d'autres véhicules",
-		propositionC: "Vous devez ralentir",
-		propositionD: "Vous pouvez garder votre vitesse",
+		question: "Pokud jedeš rychlostí 80 km/h a vjíždíš do obydlené oblasti, musíš:",
+		propositionA: "Zvýšit rychlost",
+		propositionB: "Zachováš rychlost, pokud si to situace vyžádá pustíš ostatní vozidla",
+		propositionC: "Zpomalit na 50km/h",
+		propositionD: "Dávat pozor na lidi",
 		reponse: "C"
 	},
 
 	{
-		question: "Vous vous apprétez à tourner à droite au feu vert, mais vous voyez un piéton qui traverse :",
-		propositionA: "Vous passez avant le piéton",
-		propositionB: "Vous vérifiez qu'il n'y a pas d'autre véhicule et vous passez",
-		propositionC: "Vous attendez que le piéton est terminé",
-		propositionD: "Vous shoutez le piéton pour passer",
+		question: "Pokud odbočuješ doprava na semaforu, máš zelenou ale zrazu ti tam vejde chodec co uděláš?:",
+		propositionA: "Zastavíš v křižovatce dojdeš zbít chodce",
+		propositionB: "Přejedeš chodce protože máš zelenou a jedeš dál",
+		propositionC: "Zastavíš / zpomalíš vozidlo a necháš chodce přejít",
+		propositionD: "Vystřelíš po chodci aby si uvědomil že tudy nemá chodit",
 		reponse: "C"
 	},
 
 	{
-		question: "Sans aucune indication : La vitesse dans une zone résidentielle est de : __ km/h",
-		propositionA: "50",
-		propositionB: "55",
-		propositionC: "65",
-		propositionD: "70",
-		reponse: "A"
+		question: "Pokud značka neurčí jinak, je povolená rychlost v obydlených oblastech: __ km/h",
+		propositionA: "30 km/h",
+		propositionB: "50 km/h",
+		propositionC: "40 km/h",
+		propositionD: "60 km/h",
+		reponse: "B"
 	},
 
 	{
-		question: "Avant chaque changement de file vous devez :",
-		propositionA: "Vérifiez vos rétroviseurs",
-		propositionB: "Vérifiez vos angles morts",
-		propositionC: "Signalez vos intentions",
-		propositionD: "Tout cela",
+		question: "Pokaždé pokud vjíždíš do jiného pruhu musíš:",
+		propositionA: "Zkontrolovat zrcátka",
+		propositionB: "Zkontrolovat slepá místa",
+		propositionC: "Dát blinkr",
+		propositionD: "Vše výše uvedené",
 		reponse: "D"
 	},
 
 	{
-		question: "What blood alcohol level is classified as driving while intoxicated?",
+		question: "Jaká je maxiální hranice alkoholu v krvi při řízení motorového vozidla?",
 		propositionA: "0.05%",
 		propositionB: "0.18%",
 		propositionC: "0.08%",
@@ -45,47 +45,47 @@ var tableauQuestion = [
 	},
 
 	{
-		question: "A quel moment vous pouvez passer aux feux ?",
-		propositionA: "Quand il est vert",
-		propositionB: "Quand il n'y a personne sur l'intersection",
-		propositionC: "Vous êtes dans une zone d'école",
-		propositionD: "Quand il est vert et/ou rouge et que je tourne à droite",
+		question: "Kdy můžeš pokračovat v jízdě na semaforech?",
+		propositionA: "Když je zelená",
+		propositionB: "Když se nikdo nekouká",
+		propositionC: "Když svítí červená",
+		propositionD: "Když svítí zelená a na červenou lze odbočit doprava",
 		reponse: "D"
 	},
 
 	{
-		question: "Un piéton est au feu rouge pour les piétons",
-		propositionA: "Vous le laissez passer",
-		propositionB: "Vous observez avant de continuer",
-		propositionC: "Vous lui faite un signe de la main",
-		propositionD: "Vous continuez votre chemin car votre feu est vert",
+		question: "Co uděláte pokud ve zpětném zrcátku zahlédnete blikající policejní auto?",
+		propositionA: "Ujedete rychle pryč",
+		propositionB: "Začnete střílet do světel",
+		propositionC: "Zapnete výstražná světla a jedete dále",
+		propositionD: "Zastavíte na krajnici a vyčkáte na příchod policisty",
 		reponse: "D"
 	},
 
 	{
-		question: "Qu'est ce qui est permit quand vous dépassez un autre véhicule",
-		propositionA: "Le suivre de près pour le doubler plus vite",
-		propositionB: "Le doubler en quittant la route",
-		propositionC: "Conduire sur la route opposé pour le dépasser",
-		propositionD: "Dépasser la vitesse limite",
+		question: "Co je povolené při předjíždění jiného vozidla?",
+		propositionA: "Jedete těsně za něho, zvýšíte rychlost a co nejrychleji ho objedete zprava",
+		propositionB: "Předjedete ho zprava, protože nelze vjet do protisměru",
+		propositionC: "Předjedete ho z bezpečné vzdálenosti od něho, můžete při tom zvýšit rychlost a musíte dát znamení o změně směru jízdy",
+		propositionD: "Držíte rychlost a až on zpomalí předjedete ho",
 		reponse: "C"
 	},
 
 	{
-		question: "Vous conduisez sur une rocade qui indique une vitesse maximum de 110 km/h. La plupart du traffic roule à 120 km/h, alors vous ne devriez pas conduire plus vite que :",
-		propositionA: "80 kmh",
-		propositionB: "40 kmh",
-		propositionC: "50 kmh",
-		propositionD: "110 kmh",
-		reponse: "D"
+		question: "Jedete po dálnici, kde vozidla jedou 130 km/h přitom povolených je 120km/h, kolik pojedete vy?:",
+		propositionA: "120 km/h",
+		propositionB: "125 km/h",
+		propositionC: "130 km/h",
+		propositionD: "110 km/h",
+		reponse: "A"
 	},
 
 	{
-		question: "Quand vous êtes dépassé par un autre véhicule il est important de ne PAS :",
-		propositionA: "Ralentir",
-		propositionB: "Vérifiez vos rétroviseurs",
-		propositionC: "Regarder les autres conducteurs",
-		propositionD: "Augmenter votre vitesse",
+		question: "Pokud vás předjíždí jiné vozidlo, tak v žádném případě NESMÍTE:",
+		propositionA: "Zpomalit",
+		propositionB: "Zkontrolovat zrcátka",
+		propositionC: "Sledovat ostatní co dělají",
+		propositionD: "Zrychlovat",
 		reponse: "D"
 	},
 ]
